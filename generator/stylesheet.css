@@ -1,0 +1,63 @@
+@font-face {
+    font-family: opensans;
+    src: url('Resources/OpenSans-Regular.ttf');
+}
+
+body {
+    background-color: #222222;
+}
+
+.social {
+    touch-action: manipulation;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.prompt {
+    font-family: opensans;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    position: fixed;
+    width: 90%;
+    height: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    background-color: #4CAFFF;
+    font-family: opensans;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0px;
+    color: white;
+
+    outline-style: none;
+    border: none;
+    cursor: pointer;
+
+    position: fixed;
+    width: 50%;
+    bottom: 10%;
+    left: 25%;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    touch-action: manipulation;
+}
+
+.button:hover {
+    background-color: #5dc2f5;
+}
+
+.button:active {
+    background-color: #5591ff;
+}
