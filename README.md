@@ -1,2 +1,2 @@
 ## How to connect wo the website:
-URL: https://www.Tij-code.github.io/
+URL: https://tij-code.github.io/
