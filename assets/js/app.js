@@ -1,7 +1,7 @@
 // socials
 const github = document.querySelector("#github");
 github.addEventListener("click", () => {
-    window.open("https://www.github.com/tij-code")
+    window.open("https://github.com/TiJ-code/TiJ-code.github.io")
 });
 const yt = document.querySelector("#yt");
 yt.addEventListener("click", () => {
